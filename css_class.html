@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>    CSS  INTRODUCTION!!!!
+</h1>
+    <p>
+CSS (cascading style sheets)
+Cascading it means applying and deciding priorities of an element when multiple syles applied on the same elemets
+Style means visual representation or appearance of an webpage
+Sheets means list of style rules together written using seletors in external file
+</p>
+<p>
+    There are mainly three types to apply an style in an element
+1.In-line :
+Styles are written in inside the element on the opening tag
+</p>
+<h5>IN-LINE CSS</h5>
+<img src="./image.png" alt="in line css">
+<h5>output inline css:</h5>
+<img src="./image copy.png" alt="in line output__">
+<p>
+    2.internal css:   <br>
+There are written inside the head section between the style element with mention an tag name
+</p>
+<h5>code.html</h5>
+<img src="./image copy 2.png" alt="internal css ">
+<h5>output.html</h5>
+<img src="./image copy 3.png" alt="internal output:::">
+
+<p>
+    3.extrenal style sheets:   <br>
+In external css we will create an suparate file for css and we will link it in html file at the head section of an html document by using link element inside head section </p>
+
+<h5>code.html </h5>
+<img src="./image copy 4.png" alt="extrenal css">
+<h5>code.css</h5>
+<img src="./image copy 5.png" alt="css style">
+
+<h5>output::::</h5>
+<img src="./image copy 6.png" alt="output">
+<p>
+
+    SELECTORS: <br>
+A selector is a pattern which is used to select the elements for styling . <br>
+Types of selectors:  <br>
+1.Universal selector:(*)  <br>
+<code>
+    
+* {
+Color:red;
+}
+</code>
+<br>
+
+___>selects all the elements and applies same style for everthing  <br>
+
+2.type selector:(element name)  <br>
+
+
+<code>
+    P{
+Color:red;
+}
+</code> <br>
+---- we can select the particular element <br>
+3.class selector: <br>
+We can give the class name inside the head section of an elements <br>
+And we can call the class with . class name <br>
+
+File.css <br>
+<code>
+    .highlight {
+  background-color: yellow;
+}
+
+</code>
+File.html <br>
+<p class="highlight">This is highlighted</p>
+4.ID selector(#idname): <br>
+We can give the id name inside the head section of an elements
+And we can call the id with # class name <br>
+File.css <br>
+<code>
+#main-title {
+color: red;
+}
+File.html
+</code>
+<!-- <h1 id="main-title">Hello</h1> -->
+
+</p>
+
+</p>
+</body>
+</html>
